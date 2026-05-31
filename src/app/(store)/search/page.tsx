@@ -33,11 +33,11 @@ function SearchContent() {
 
   const sortOptions = [
     { value: 'relevance', label: 'Tegishlilik' },
-    { value: 'price_asc', label: 'Narx: kamdan ko'pga' },
-    { value: 'price_desc', label: 'Narx: ko'pdan kamga' },
-    { value: 'rating', label: 'Reyting bo'yicha' },
+    { value: 'price_asc', label: "Narx: kamdan ko'pga" },
+    { value: 'price_desc', label: "Narx: ko'pdan kamga" },
+    { value: 'rating', label: "Reyting bo'yicha" },
     { value: 'newest', label: 'Yangilar avval' },
-    { value: 'bestseller', label: 'Ko'p sotilgan' },
+    { value: 'bestseller', label: "Ko'p sotilgan" },
   ]
 
   const FilterPanel = () => (
